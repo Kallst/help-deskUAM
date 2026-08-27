@@ -1,0 +1,27 @@
+{
+  "name": "helpdesk-uam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "scritps": {
+  "dev": "tsx watch src/main.ts",
+  "test": "vitest",
+  "cov": "vitest run --coverage",
+  "lint": "esLint src"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}
