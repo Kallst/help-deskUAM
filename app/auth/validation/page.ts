@@ -1,0 +1,3 @@
+interface Validation {
+    pin: string
+}
